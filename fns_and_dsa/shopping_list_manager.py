@@ -12,7 +12,8 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = ("Enter the item to add: ")
+            item = input("Enter the item to add: ")
+            
             pass
         elif choice == '2':
             item = ("Enter an item to remove: ")
